@@ -1,0 +1,19 @@
+{
+  "name": "fleet-supabase",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "coverage": "vitest run --coverage",
+    "lint": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@emnapi/core": "^1.10.0",
+    "@emnapi/runtime": "^1.10.0",
+    "@types/node": "latest",
+    "@vitest/coverage-v8": "latest",
+    "typescript": "latest",
+    "vitest": "latest"
+  }
+}

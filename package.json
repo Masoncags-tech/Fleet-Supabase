@@ -6,7 +6,8 @@
   "scripts": {
     "test": "vitest run",
     "coverage": "vitest run --coverage",
-    "lint": "tsc --noEmit"
+    "lint": "tsc --noEmit",
+    "security:secrets": "node scripts/scan-plaintext-secrets.mjs"
   },
   "devDependencies": {
     "@emnapi/core": "^1.10.0",

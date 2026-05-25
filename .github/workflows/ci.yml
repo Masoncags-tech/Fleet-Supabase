@@ -16,6 +16,8 @@ jobs:
           node-version: 20
           cache: npm
       - run: npm ci
+      - name: Plaintext secret scan
+        run: npm run security:secrets
       - run: npm run lint
       - run: npm test
       - run: npm run coverage
